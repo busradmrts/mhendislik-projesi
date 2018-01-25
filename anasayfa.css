@@ -1,0 +1,65 @@
+body {
+    /*arkaplan rengi*/
+    background-color:white;
+}
+h1{
+    /*benim kütüphanem yazısını ortalama amaçlı*/
+    padding-top:1%;
+
+}
+h2{
+    color:#8b1a1a;
+    text-align:center;
+}
+p{
+    /*yazı rengi*/
+    color:black;
+    height: 142px;
+}
+.anasayfa {
+    background-color:white;
+}
+.baslik{
+    background-color:#8b1a1a; 
+    color: white;
+    padding: 30px;
+    text-align:center;
+    height:100px;
+} 
+.sol{
+    width: 45%;
+    float:left;
+}
+.sag{
+    width: 45%;
+    float:right;
+}
+.duzen:after {
+       content: "";
+       display: table;
+       clear: both;
+}
+.tablo{
+	border-collapse: collapse;
+	color:black;
+}
+.form-tasarim{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+.tablo tr:hover {
+background-color: #8b1a1a;
+color:#fff;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+.tablo td {
+padding-top: 12px;
+padding-bottom: 12px;
+
+}
+.tasarim{
+	width:35%;
+	float:left;
+}
+
